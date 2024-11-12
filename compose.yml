@@ -31,4 +31,5 @@ services:
 
 networks:
   publish:
+    external: true
     name: ${NETWORK_NAME}
